@@ -7,5 +7,14 @@ A tool to access https://acm.timus.ru/ services programmatically
 ### 2) from zip
 `pip install timus_api.zip`
 
-## How to use
-`timus_api submit sourcecode.txt 1000 320816ZW py utf-8`
+## How to use (Examples)
+```
+python -m timus_api submit sourcecode.txt 1037 320816ZW cpp utf-8
+```
+```
+python -m timus_api submit task1037.c - 320816ZW -
+```
+Runnable:
+```
+python -m timus_api submit "print(sum(map(int,input().split())))" 1000 320816ZW py utf-8
+```
