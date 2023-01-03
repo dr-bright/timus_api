@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "timus_api"
+version = "0.1.0"
+authors = [
+    { name="Gleb Katkov", email="gkigki111@gmail.com" },
+]
+description = "A tool to access https://acm.timus.ru/ services programmatically"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dr-bright/timus_api"
